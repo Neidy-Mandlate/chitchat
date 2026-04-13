@@ -1,3 +1,10 @@
+//ST Name :Neidy Mandlate
+//ST NUMBER :ST10475915
+//Module PROG5121
+
+
+//ChitChat messenger PART 1
+
 package com.mycompany.chitchat;
 
 import java.util.Scanner;
@@ -14,9 +21,9 @@ public class Chitchat {
         
         while (!exit) {
             System.out.println("");
-            System.out.println("1. Register");
-            System.out.println("2. Login");
-            System.out.println("3. Exit");
+            System.out.println("Register");
+            System.out.println("Login");
+            System.out.println("Exit");
             System.out.print("Choose option: ");
             
             int choice = input.nextInt();

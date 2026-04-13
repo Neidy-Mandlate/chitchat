@@ -2,7 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+//ST Name;Neidy Mandlate
+//ST NUMBER :ST10475915
 
+
+//Login page for users of ChitChat 
 package com.mycompany.chitchat;
 
 public class Loginpage {
@@ -56,6 +60,9 @@ public class Loginpage {
         }
         return false;
     }
+    
+    //REFERENCE: SA Mobile # format (+27 followed by 9 digit)
+    //Source : South African numbering plan- ICASA
     
     public boolean checkCellPhoneNumber(String cellNumber) {
         if (cellNumber.length() != 12) {
