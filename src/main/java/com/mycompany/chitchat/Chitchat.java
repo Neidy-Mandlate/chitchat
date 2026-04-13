@@ -64,7 +64,7 @@ public class Chitchat {
             }
             else if (choice == 3) {
                 System.out.println("");
-                System.out.println("Goodbye!");
+                System.out.println("Goodbye! ");
                 exit = true;
             }
             else {
