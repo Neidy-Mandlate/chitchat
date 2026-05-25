@@ -22,14 +22,14 @@ public class Message {
     }
 
     public boolean checkMessageID() {
-        if (messageID.length() <= 10) {
+        if (messageID.length() == 10) {
             return true;
         }
         return false;
     }
 
     public static String checkRecipientCell(String cellNumber) {
-        if (cellNumber.length() > 10) {
+        if (cellNumber.length() != 12) {
             return "Cell phone number is incorrectly formatted or does not contain an international code. Please correct the number and try again.";
         }
 

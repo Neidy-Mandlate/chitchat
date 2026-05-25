@@ -99,7 +99,7 @@ public class Chitchat {
                                 int messageID = 1000000000 + rand.nextInt(900000000);
                                 String messageIDStr = String.valueOf(messageID);
 
-                                System.out.println("Message ID: " + messageIDStr);
+                                System.out.println("Message ID generated: " + messageIDStr);
 
                                 System.out.print("Enter recipient cell number: ");
                                 String recipient = input.nextLine();
